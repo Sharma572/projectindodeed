@@ -1,0 +1,15 @@
+.rec.rec-arrow {
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: #dfd5d5 !important;
+    color: rgb(86, 86, 86);
+}
+.rec.rec-arrow:hover{
+    color: black;
+    background-color: #cccec8 !important;
+    border: 1px solid black;
+    font-weight: 700;
+}
+.sc-eDvSVe .lguFiu{
+    width: 100% !important;
+}
