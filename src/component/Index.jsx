@@ -2,7 +2,7 @@ import Carousel from "react-elastic-carousel";
 import { data } from "../CarsData";
 import { AiOutlineRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import './slider.css'
+import "./slider.css";
 
 const breakPoints = [
   {
@@ -23,7 +23,7 @@ const breakPoints = [
 ];
 
 function Index() {
-    // console.log(data);
+  // console.log(data);
   return (
     <>
       <div className="lg:mt-40 mt:10 sm:mx-0 lg:mx-10">
@@ -45,12 +45,12 @@ function Index() {
                   </div>
                 </div>
               </div>
-              <div className="w-full">
+              <div>
                 <img
                   className="hover:scale-105 transition-all duration-500 cursor-pointer"
                   src={item.imageUrl}
                   alt={index}
-                  width="305px"
+                  width="275px"
                 />
               </div>
 
