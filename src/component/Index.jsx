@@ -3,6 +3,8 @@ import { data } from "../CarsData";
 import { AiOutlineRight } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./slider.css";
+import car from '../assets/s90_recharge.jpg'
+import '../pages/learn.css'
 
 const breakPoints = [
   {
@@ -27,6 +29,8 @@ function Index() {
   return (
     <>
       <div className="lg:mt-40 mt:10 sm:mx-0 lg:mx-10">
+       
+
         <Carousel
           itemsToScroll={3}
           breakPoints={breakPoints}
