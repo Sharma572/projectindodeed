@@ -1,5 +1,2 @@
 # react-tailwind-sidebar
-
-1)npm i
-
-2)npm run dev
+<a href="https://ephemeral-donut-da9e88.netlify.app/" target="_blank" >Site Preview</a>
